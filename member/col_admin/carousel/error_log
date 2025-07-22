@@ -1,0 +1,30 @@
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 18
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 19
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 23
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 23
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 24
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 51
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 52
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 53
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 57
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 57
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 61
+[16-Dec-2013 16:54:56 Asia/Taipei] PHP Warning:  mysql_close(): no MySQL-Link resource supplied in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 117
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 18
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 19
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 23
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 23
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 24
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 51
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 52
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 53
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 57
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 57
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 61
+[16-Dec-2013 16:54:58 Asia/Taipei] PHP Warning:  mysql_close(): no MySQL-Link resource supplied in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 117
+[28-Jan-2014 15:43:00 Asia/Taipei] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 74
+[28-Jan-2014 15:45:24 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 62
+[28-Jan-2014 15:45:25 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 62
+[28-Jan-2014 15:45:26 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 62
+[28-Jan-2014 15:45:26 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 62
+[28-Jan-2014 15:45:26 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/carousel/carousel_list.php on line 62

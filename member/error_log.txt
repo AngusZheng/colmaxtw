@@ -1,0 +1,35 @@
+[17-Sep-2015 17:30:14 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/config.php on line 31
+[17-Sep-2015 17:31:31 Asia/Taipei] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/colmaxco/public_html/member/side_menu.php on line 268
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 166
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 174
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 182
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 190
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 198
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 206
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 215
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 223
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 231
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 239
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 248
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 256
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 264
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 272
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 280
+[17-Sep-2015 17:37:09 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 288
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 166
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 174
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 182
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 190
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 198
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 206
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 215
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 223
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 231
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 239
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 248
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 256
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 264
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 272
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 280
+[17-Sep-2015 17:41:23 Asia/Taipei] PHP Notice:  Undefined index: authorized in /home/colmaxco/public_html/member/side_menu.php on line 288
+[17-Sep-2015 17:41:59 Asia/Taipei] PHP Notice:  Undefined variable: arr in /home/colmaxco/public_html/member/side_menu.php on line 296

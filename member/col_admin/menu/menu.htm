@@ -1,0 +1,187 @@
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body class="panel" topmargin="0" leftmargin="0">
+<div id="body">
+<!-- OA树开始-->
+<ul id="menu">
+<li class="L1"><a href="javascript:c(m03);" id="m03"><span><img src="images/ico/2.gif" align="absMiddle"/> 客戶管理</span></a></li>
+<ul id="m03d" style="display:none;" class="U1">
+<li class="L22"><a href="main.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 客戶資料管理</span></a></li>
+<li class="L22"><a href="sp.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 臨時案件維護</span></a></li>
+<li class="L22"><a href="event/event.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 事件反應追蹤</span></a></li>
+<li class="L22"><a href="map/google_map.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 群運客戶地圖</span></a></li>
+<li class="L22"><a href="map/enemy_google_map.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 同業客戶地圖</span></a></li>
+</ul>
+
+<li class="L1"><a href="javascript:c(m05);" id="m05"><span><img src="images/ico/2.gif" align="absMiddle"/> 內部管理</span></a></li>
+<ul id="m05d" style="display:none;" class="U1">
+<li class="L22"><a href="car/car.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 機具設備履歷表</span></a></li>
+<li class="L22"><a href="empolyee.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 人員履歷表</span></a></li>
+<li class="L22"><a href="sop.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 標準作業流程</span></a></li>
+<li class="L22"><a href="car/car_work.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 車輛派遣工作</span></a></li>
+<li class="L22"><a href="mail/mail_page.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 電子報發送</span></a></li>
+<li class="L22"><a href="video/video.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 教育訓練</span></a></li>
+<li class="L22"><a href="mobile/mobile.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 業務拜訪紀錄</span></a></li>
+<li class="L22"><a href="dep_power/managing.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 營運紀錄</span></a></li>
+</ul>
+
+<li class="L1"><a href="javascript:c(m09);" id="m09"><span><img src="images/ico/2.gif" align="absMiddle"/> 帳號管理</span></a></li>
+<ul id="m09d" style="display:none;" class="U1">
+<? if($_SESSION["root"]=='root') {?>
+<li class="L22"><a href="car/authorization.php?hide2=<?=$hide2?>&hide9=<?=$hide9?>&user=<?=$user?>&fgprice=<?=$fgprice?>"><span><img src="images/ico/2.gif" align="absMiddle"/> 權限設定</span></a></li><? }?>
+<li class="L22"><a href="password.php"><span><img src="images/ico/2.gif" align="absMiddle"/> 更改密碼</span></a></li>
+<li class="L22"><a href="login_out.php" target="_parent"><span><img src="images/ico/2.gif" align="absMiddle"/> 登出</span></a></li>
+</ul>
+</div>
+<div id="bottom"></div>
+
+<script language="JavaScript">
+var cur_id="";
+var flag=0,sflag=0;
+
+//-------- 菜单点击事件 -------
+function c(srcelement)
+{
+  var targetid,srcelement,targetelement;
+  var strbuf;
+
+  //-------- 如果点击了展开或收缩按钮---------
+  targetid=srcelement.id+"d";
+  targetelement=document.getElementById(targetid);
+
+  if (targetelement.style.display=="none")
+  {
+     srcelement.className="active";
+     targetelement.style.display='';
+
+     menu_flag=0;
+     expand_text.innerHTML="收缩";
+  }
+  else
+  {
+     srcelement.className="";
+     targetelement.style.display="none";
+
+     menu_flag=1;
+     expand_text.innerHTML="展開";
+     var links=document.getElementsByTagName("A");
+     for (i=0; i<links.length; i++)
+     {
+       srcelement=links[i];
+       if(srcelement.parentNode.className.toUpperCase()=="L1" && srcelement.className=="active" && srcelement.id.substr(0,1)=="m")
+       {
+          menu_flag=0;
+          expand_text.innerHTML="收缩";
+          break;
+       }
+     }
+  }
+}
+function set_current(id)
+{
+   cur_link=document.getElementById("f"+cur_id)
+   if(cur_link)
+      cur_link.className="";
+   cur_link=document.getElementById("f"+id);
+   if(cur_link)
+      cur_link.className="active";
+   cur_id=id;
+}
+//-------- 打开网址 -------
+function a(URL,id)
+{
+   set_current(id);
+   if(URL.substr(0,7)!="http://" && URL.substr(0,6)!="ftp://")
+      URL = "/general/"+URL;
+    parent.openURL(URL,0);
+}
+function b(URL,id)
+{
+   set_current(id);
+   URL = "/app/"+URL;
+    parent.openURL(URL,0);
+}
+//add by YZQ 2008-03-05 begin
+function bindFunc() {
+  var args = [];
+  for (var i = 0, cnt = arguments.length; i < cnt; i++) {
+    args[i] = arguments[i];
+  }
+  var __method = args.shift();
+  var object = args.shift();
+  return (
+    function(){
+      var argsInner = [];
+		  for (var i = 0, cnt = arguments.length; i < cnt; i++) {
+		    argsInner[i] = arguments[i];
+		  }
+      return __method.apply(object, args.concat(argsInner));
+    });
+}
+var timerId = null;
+var firstTime = true;
+//add by YZQ 2008-03-05 end
+function d(URL,id)
+{
+   //add by YZQ 2008-03-05 begin
+   var winMgr = parent.parent.table_index.main.winManager;
+	 if (!winMgr) {
+	   if (firstTime) {
+	     parent.openURL("/fis/common/frame.jsp",0);
+	     firstTime = false;
+	   }
+	   timerId = setTimeout(bindFunc(d, window, URL, id), 100);
+	   return;
+	 }
+	 firstTime = true;
+	 if (timerId) {
+	   clearTimeout(timerId);
+	 }
+	 if (winMgr) {
+	   winMgr.openActionPort("/fis/"+URL, document.getElementById("f" + id).innerText);
+	   return;
+	 }
+   //add by YZQ 2008-03-05 end
+
+   set_current(id);
+   URL = "/fis/"+URL;
+    parent.openURL(URL,0);
+}
+//-------- 菜单全部展开/收缩 -------
+var menu_flag=1;
+function menu_expand()
+{
+  if(menu_flag==1)
+     expand_text.innerHTML="收縮";
+  else
+     expand_text.innerHTML="展開";
+
+  menu_flag=1-menu_flag;
+
+  var links=document.getElementsByTagName("A");
+  for (i=0; i<links.length; i++)
+  {
+    srcelement=links[i];
+    if(srcelement.parentNode.className.toUpperCase()=="L1" || srcelement.parentNode.className.toUpperCase()=="L21")
+    {
+      targetelement=document.getElementById(srcelement.id+"d");
+      if(menu_flag==0)
+      {
+        targetelement.style.display='';
+        srcelement.className="active";
+      }
+      else
+      {
+        targetelement.style.display="none";
+        srcelement.className="";
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

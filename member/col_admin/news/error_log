@@ -1,0 +1,37 @@
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 18
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 19
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 23
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 23
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 24
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 51
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 52
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 53
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 57
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 57
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 61
+[16-Dec-2013 16:54:52 Asia/Taipei] PHP Warning:  mysql_close(): no MySQL-Link resource supplied in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 118
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 18
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 19
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 23
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 23
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 24
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_connect(): Access denied for user 'user31'@'localhost' (using password: YES) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 51
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 52
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 53
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 57
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_query(): A link to the server could not be established in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 57
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 61
+[16-Dec-2013 16:56:00 Asia/Taipei] PHP Warning:  mysql_close(): no MySQL-Link resource supplied in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 118
+[22-Jul-2015 13:15:04 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:07 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:09 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:14 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:16 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:44 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:46 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[22-Jul-2015 13:15:48 Asia/Taipei] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 88
+[25-Aug-2016 17:59:43 Asia/Taipei] PHP Parse error:  syntax error, unexpected '{' in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 29
+[25-Aug-2016 17:59:44 Asia/Taipei] PHP Parse error:  syntax error, unexpected '{' in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 29
+[25-Aug-2016 18:00:11 Asia/Taipei] PHP Parse error:  syntax error, unexpected '{' in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 29
+[25-Aug-2016 18:00:12 Asia/Taipei] PHP Parse error:  syntax error, unexpected '{' in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 29
+[25-Aug-2016 18:00:12 Asia/Taipei] PHP Parse error:  syntax error, unexpected '{' in /home/colmaxco/public_html/member/col_admin/news/news_list.php on line 29
